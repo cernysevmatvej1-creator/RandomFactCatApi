@@ -1,0 +1,12 @@
+﻿using System.ComponentModel.DataAnnotations;
+namespace ApiDeepSeek.models
+{
+    public class User
+    {
+        [Key]
+        public int Id { get; set; } 
+        public string UserName { get; set; }
+        public string UserId { get; set; }
+
+    }
+}

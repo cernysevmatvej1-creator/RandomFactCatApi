@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "GroupApi.Controllers.AnswersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Answers/facts-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroupApi.Controllers.AnswersController",
+    "Method": "Login",
+    "RelativePath": "api/Answers/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ApiDeepSeek.models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroupApi.Controllers.AnswersController",
+    "Method": "Create",
+    "RelativePath": "api/Answers/save-otvet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "answer",
+        "Type": "ApiDeepSeek.Models.Answer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
